@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    max-width: 1200px;
+    flex: 1;
+}
+
+.red{
+    background-color: red;
+    min-height: 400px;
+}
+.blue{
+    background-color: blue;
+    min-height: 400px;
+}
